@@ -26,7 +26,6 @@ print(animals)
 # unpacking tuples into key, value vars
 animals = {key: value for key, value in animalList}
 print(animals)
-print(type(animals.items()))
 print(animals.items())
 print([{'letter': key, "name": value} for key,value in animals.items()])
 
